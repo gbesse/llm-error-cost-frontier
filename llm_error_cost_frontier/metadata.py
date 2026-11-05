@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Construire une frontière coût erreur avec abstention explicite', 'en': 'Build a cost error frontier with explicit abstention', 'es': 'Construir una frontera coste error con abstención explícita'}

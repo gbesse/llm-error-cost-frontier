@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-error-cost-frontier"
+version = "0.1.0a1"
+description = "FR: Construire une frontière coût erreur avec abstention explicite | EN: Build a cost error frontier with explicit abstention | ES: Construir una frontera coste error con abstención explícita"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+llm-error-cost-frontier = "llm_error_cost_frontier.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["llm_error_cost_frontier*"]
